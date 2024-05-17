@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>User Dashboard</title>
+</head>
+<body>
+
+	<section>
+		
+		<div class="conatainer">
+		
+			<div class="card">
+				
+				<div class="card-body">
+				
+					<div class="container text-center">
+					<img src=""  style="height: 200px; width: 200px" class="my_profile_picture" th:src="@{'/images/contactLogo.png'}" alt="profile photo" />
+				
+					</div>
+				
+				
+				</div>
+				
+			</div>
+		</div>
+							
+	</section>
+</body>
+</html>

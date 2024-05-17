@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+
+	<section>
+	
+		<div class="card">
+		
+			
+			<div class="card-body">
+			
+				<h1 class="text-center">Your contacts</h1>
+			
+			</div>
+		</div>
+	
+	</section>
+
+
+
+
+</body>
+</html>

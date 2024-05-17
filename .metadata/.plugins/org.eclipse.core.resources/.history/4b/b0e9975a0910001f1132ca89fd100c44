@@ -1,0 +1,11 @@
+package com.contactManager.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.contactManager.modals.Contact;
+
+public interface ContactRepository extends JpaRepository<Contact, Integer> {
+	
+	//pegination..
+
+}

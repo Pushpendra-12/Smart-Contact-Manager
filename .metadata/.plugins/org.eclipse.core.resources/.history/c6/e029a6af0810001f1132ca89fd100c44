@@ -1,0 +1,5 @@
+package com.contactManager.repository;
+
+public interface ContactRepository {
+
+}
